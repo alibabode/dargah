@@ -1,0 +1,163 @@
+/***********************************************
+Template Name: COAGEX - Creative Agency Template
+Author URL: https://www.rtl-theme.com/author/aliniyazi/
+Website: www.netita.ir
+***********************************************/
+@font-face{font-family:'ISDNFa';src:url(fonts/ISDNFa.eot);src:url('fonts/ISDNFad41d.eot?#iefix') format('embedded-opentype'),url(fonts/ISDNFa.woff) format('woff'),url(fonts/ISDNFa.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:'ISMed';src:url(fonts/ISMed-Medium.eot);src:url('fonts/ISMed-Mediumd41d.eot?#iefix') format('embedded-opentype'),url(fonts/ISMed-Medium.woff) format('woff'),url(fonts/ISMed-Medium.ttf) format('truetype');font-weight:500;font-style:normal}@font-face{font-family:'ISBl';src:url(fonts/ISBl-Black.eot);src:url('fonts/ISBl-Blackd41d.eot?#iefix') format('embedded-opentype'),url(fonts/ISBl-Black.woff) format('woff'),url(fonts/ISBl-Black.ttf) format('truetype');font-weight:900;font-style:normal}@font-face{font-family:'ISULi';src:url(fonts/ISULi-UltraLight.eot);src:url('fonts/ISULi-UltraLightd41d.eot?#iefix') format('embedded-opentype'),url(fonts/ISULi-UltraLight.woff) format('woff'),url(fonts/ISULi-UltraLight.ttf) format('truetype');font-weight:200;font-style:normal}@font-face{font-family:'IS';src:url(fonts/IS.eot);src:url('fonts/ISd41d.eot?#iefix') format('embedded-opentype'),url(fonts/IS.woff) format('woff'),url(fonts/IS.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:'ISBo';src:url(fonts/ISBo-Bold.eot);src:url('fonts/ISBo-Boldd41d.eot?#iefix') format('embedded-opentype'),url(fonts/ISBo-Bold.woff) format('woff'),url(fonts/ISBo-Bold.ttf) format('truetype');font-weight:700;font-style:normal}@font-face{font-family:'Av-theme';src:url(fonts/Avtheme.eot);src:url('fonts/Avthemed41d.eot?#iefix') format('embedded-opentype'),url(fonts/Avtheme.woff) format('woff'),url(fonts/Avtheme.ttf) format('truetype');font-weight:400;font-style:normal}
+/*FontStyle*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+   font-family: 'Av-theme';
+}
+.intro-text h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+/*Index1*/
+
+html,body{
+    direction: rtl;
+    font-family: 'IS';
+    text-align: right;
+}
+.main-menu {
+    float: left;
+    margin-left: 85px;
+}
+.main-menu ul li {
+    margin-left: initial;
+    margin-right: 25px;
+}
+.search-icon-area {
+    right: initial;
+    left: 20px;
+}
+.header-1-artwork {
+    right: initial;
+    left: 60px;
+}
+.header-pattern-2 {
+    left: initial;
+    right: 12%;
+}
+.header-pattern-1 {
+    left: initial;
+    right: 50%;
+}
+.intro-text {
+    text-align: right;
+}
+.learnmore2 {
+    right: initial;
+    left: -55px;
+}
+.portfolio-area{
+    direction: ltr;
+}
+.section-heading-2 h3:before {
+    left: initial;
+    right: 0;
+}
+.portfolio-item-content{
+    direction: rtl;
+}
+.rowrigh{
+    direction: rtl;
+}
+.servive-p-2 {
+    left: initial;
+    right: -128px;
+}
+.left-arrow {
+    right: initial;
+    left: 30px;
+}
+.right-arrow {
+    right: initial;
+    left: 90px;
+}
+.testimonial-area{
+    direction: ltr;
+}
+.single-price{
+    text-align: center;
+}
+.price-qoute {
+    padding: 10px 20px 5px;
+}
+.callto-action-btn {
+    text-align: left;
+}
+.social ul li {
+    margin-right: initial;
+    margin-left: 15px;
+}
+.servive-p-1 {
+    left: initial;
+    right: -50px;
+}
+.mean-container a.meanmenu-reveal {
+    right: initial!important;
+    left: 0!important;
+
+}
+.mean-container .mean-nav ul li a {
+    text-align: right;
+
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    right: initial;
+    left: 0px;
+}
+@media only screen and (max-width: 574px) and (min-width: 320px){
+.search-icon-area {
+    right: initial!important;
+    left: 20%!important;
+}}
+@media only screen and (max-width: 767px) and (min-width: 575px){
+.search-icon-area {
+    right: initial!important;
+    left: 15%!important;
+}}
+@media (max-width: 991px) and (min-width: 768px){
+.main-menu ul li {
+     margin-left: initial!important;
+}}
+@media only screen and (max-width: 767px) and (min-width: 575px){
+.portfolio-button-area {
+    text-align: right!important;
+}}
+@media only screen and (max-width: 574px) and (min-width: 320px){
+.portfolio-button-area {
+    text-align: right!important;
+
+}}
+
+/*About us*/
+.about-counter-text {
+    text-align: right !important;
+}
+
+/*profolo*/
+.portfolio-filter li {
+    margin-right: initial;
+    margin-left: 25px;
+}
+.slick-slider .slick-track, .slick-slider .slick-list{
+    direction: ltr;
+}
+/*Blog*/
+.blog-search-icon-small {
+    right: initial;
+    left: 40px;
+
+}
+.image-box {
+    float: right;
+    margin-right: initial;
+    margin-left: 20px;
+}
+.blog-share ul li {
+    margin-right: initial;
+    margin-left: 8px;
+}
